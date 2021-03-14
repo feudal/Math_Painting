@@ -1,2 +1,5 @@
 # Project exclude paths
 /venv/
+/canvas.png
+/image.png
+/show_triengle.py

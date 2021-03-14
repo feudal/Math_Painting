@@ -2,11 +2,10 @@ import numpy as np
 from PIL import Image
 
 data = np.zeros((5, 4, 3), dtype=np.uint8)
-data[:] = [255, 255, 0]
+data[:] = [255, 255, 255]
 print(data)
 
-data[0:3, 0:2] = [55, 30, 180]
-data[2:4, 1:3] = [155, 130, 10]
+data[1:2, 2:3] = [55, 30, 180]
 
 print(data)
 

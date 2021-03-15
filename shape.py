@@ -39,12 +39,4 @@ class Triangle:
         canvas.data[self.y2 - 1:self.y2, self.x2 - 1:self.x2] = self.color
         canvas.data[self.y3 - 1:self.y3, self.x3 - 1:self.x3] = self.color
 
-class Dot:
 
-    def __init__(self, x, y, color):
-        self.x=x
-        self.y=y
-        self.color=color
-
-    def draw(self,canvas):
-        canvas.data[self.y-1:self.y, self.x-1:self.x] = self.color
